@@ -1,0 +1,191 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+	background: #fff;
+	color: #666666;
+	font-family: "Manrope", sans-serif;
+}
+
+a {
+	color: #004dff;
+}
+
+a:hover, a:active, a:focus {
+	color: #0080ff;
+	outline: none;
+	text-decoration: none;
+}
+
+p {
+	padding: 0;
+	margin: 0 0 25px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Manrope", sans-serif;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: #fff url("../img/preloader.svg") no-repeat center center;
+}
+
+.boxtext {
+	display: block;
+	width: 150px;
+	word-wrap: break-word;
+	color: #000000;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pad {
+	margin-top: 10px;
+}
+
+.iconpad {
+	margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+	font-size: 32px;
+	color: #111;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.section-header .section-description {
+	text-align: center;
+	padding-bottom: 30px;
+	color: #666;
+}
+
+/* Sections Footer
+--------------------------------*/
+.section-footer {
+	text-align: center;
+	padding-top: 45px;
+	color: #666;
+}
+
+/* Content Section
+--------------------------------*/
+#wizard {
+	background: #fff;
+	background-size: cover;
+	padding: 80px 0 50px 0;
+}
+
+#wizard .title {
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+#wizard .title a {
+	color: #111;
+}
+
+#wizard .description {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#wizard .box {
+	padding: 30px 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+	position: relative;
+	background: #fafafa;
+}
+
+#wizard .box-small {
+	height: 270px;
+}
+
+#wizard .box-med {
+	height: 320px;
+}
+
+#wizard .icon {
+	position: absolute;
+	top: 232px;
+	left: calc(50% - 36px);
+	transition: 0.2s;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	width: 72px;
+	height: 72px;
+	background: #004dff;
+}
+
+#wizard .icon a {
+	display: inline-block;
+}
+
+#wizard .icon i {
+	color: #fff;
+	font-size: 24px;
+}
+
+#wizard .box:hover .icon {
+	background: #fff;
+	border: 2px solid #004dff;
+}
+
+#wizard .box:hover .icon i {
+	color: #004dff;
+}
+
+#wizard .box:hover .icon a {
+	color: #004dff;
+}
+
+#wizard .btn {
+	font-family: "Manrope", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #004dff;
+	color: #004dff;
+}
+
+#wizard .btn:hover {
+	background: #004dff;
+	color: #fff;
+}
